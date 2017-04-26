@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import InvoiceLineItems from './InvoiceLineItems';
+import InvoiceTable from './InvoiceTable';
 import './index.css';
 
 ReactDOM.render(
-  <InvoiceLineItems />,
+  <InvoiceTable />,
   document.getElementById('root')
 );
