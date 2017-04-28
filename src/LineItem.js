@@ -24,13 +24,12 @@ class LineItem extends Component {
           <td>
             <input type="text"
                    name="title"
-                   className="form-control"
-                   onChange={amountChanged.bind(null, index)} />
+                   className="form-control" />
           </td>
 
           <td>
             <div className="input-group">
-              <div className="input-group__addon">$</div>
+              <div className="input-group__addon"></div>
               <input type="text"
                      name="price"
                      className="form-control"
@@ -52,7 +51,7 @@ class LineItem extends Component {
           <td>
             <button className="btn btn-danger"
                     onClick={deleteLineItem.bind(null, index)}>
-              <span className="glyphicon glyphicon-trash">trash</span>
+              <span className="glyphicon glyphicon-trash"></span>
             </button>
           </td>
         </tr>
